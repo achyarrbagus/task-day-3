@@ -11,7 +11,7 @@ function formValidation(nama, email, numberPhone, subject, textArea) {
   } else if (textArea == "") {
     alert("harap masukan pesan anda");
   } else {
-    let emailDefault = "achyarbagus@gmail.com";
+    let emailDefault = "uzumaki-akbar@gmail.com";
     let sendEmail = document.createElement("a");
     sendEmail.href = `mailto:${emailDefault}? subject = ${subject} &body=hallo nama saya ${nama} dan ${textArea}`;
     sendEmail.click();
